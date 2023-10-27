@@ -1,22 +1,20 @@
-a1 = int(input('Введите число 1:'))
-a2 = int(input('Введите число 2:'))
+shoping_list = ["яблоко", "молоко", "хлеб", "яйца", "сок"]
+for i in shoping_list:
+    print(i)
 
-v = int(input('какую операцию вы хотите выполнить? /n 1 сложение /n 2 вычитание /n 3 деление /n 4 умножение /n'))
+del shoping_list[1]
 
-if v == 1:
-    r = a1+a2
-    p = 'сложение'
-    t = p
-if v == 2:
-    r = a1 - a2
-    l = 'вычитание'
-    t = l
-if v == 3:
-    r = a1 / a2
-    m = 'деление'
-    t = m
-if v == 4:
-    r = a1*a2
-    n = 'умножение'
-    t = n
-aaaaaaaaaaaaaaaaaaaa
+shoping_list [0] = ("банан")
+
+print(shoping_list )
+
+def i(list):
+    c = 0
+    for i in list:
+        c += 1
+    return c
+print(i(shoping_list))
+
+
+
+
