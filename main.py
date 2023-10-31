@@ -14,6 +14,7 @@ def i(list):
         c += 1
     return c
 print(i(shoping_list))
+gjhjkfhf
 
 
 
