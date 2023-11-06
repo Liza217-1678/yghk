@@ -1,21 +1,17 @@
-shoping_list = ["яблоко", "молоко", "хлеб", "яйца", "сок"]
-for i in shoping_list:
-    print(i)
-
-del shoping_list[1]
-
-shoping_list [0] = ("банан")
-
-print(shoping_list )
-
-def i(list):
-    c = 0
-    for i in list:
-        c += 1
-    return c
-print(i(shoping_list))
-gjhjkfhf
-
+people = int(input('количество человек:'))
+c = int(input('число в считалке:'))
+print(' каждый выбывает', c, 'человек')
+a = [i for i in range(1, people+1)]
+start = 0
+while len (a)>1:
+    print('людей:', a)
+    print('начало счета', a[start])
+    delete = (start+c-1)%len(a)
+    if a[delete] == a[-1]:
+        start = 0
+    else: start = delete
+    print('номер человека', a.pop(delete))
+    print('остался', a[0])
 
 
 
