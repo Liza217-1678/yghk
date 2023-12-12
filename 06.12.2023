@@ -1,0 +1,8 @@
+def points(num):
+    a = []
+    for n in num:
+        a.append('.')
+        return a
+
+    a = points(1,4,8)
+    print(a)
