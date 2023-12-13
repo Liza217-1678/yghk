@@ -1,0 +1,16 @@
+n = int(input())
+k = int(input())
+l = int(input())
+def bank(n, k, l):
+    n = k
+    years = n
+    def nalichka():
+        if years > 0:
+            n = k * 1.1 + l
+            years = years - 1
+            return nalichka()
+        else:
+            return money
+
+
+print(money)
