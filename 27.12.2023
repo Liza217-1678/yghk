@@ -1,0 +1,13 @@
+import time
+def poi(func):
+    def wrapper(*args):
+        a = time.time()
+        func(*args)
+        b = time.time()
+        print(b-a)
+    return wrapper
+@poi
+def some_function():
+    return list(range(1,1+c))
+c = int(input('ввести число:'))
+some_function()
