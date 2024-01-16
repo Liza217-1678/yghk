@@ -1,0 +1,7 @@
+with open ('ghj', 'r') as f:
+    for line in f.readlines():
+        a = line.split(':')
+        d = a[0]
+        s = a[1]
+        z = f'{d}:{s}'
+        print (z)
